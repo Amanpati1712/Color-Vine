@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Hero-section{
+    
+    height:100vh;
+    display: flex;
+    background:linear-gradient(180deg,wheat,rgb(103, 101, 101)60%); ;
+    
+}
+.Hero-left{
+    flex: 1;
+    padding: 180px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    /* line-height: 10px; */
+}
+.Hero-left h4{
+ font-size: 26px;
+ font-weight: 600px;
+
+}
+.Hand-logo{
+    display: flex;
+     align-items: center;
+    /* justify-content: center; */
+}
+.Hand-logo img{
+    width: 100px;
+}
+.Hero-left p{
+    font-size: 60px;
+    font-weight: 600px;
+}
+.hero-latest-button{
+    width: 210px;
+    display: flex;
+    gap: 25px;
+    font-size: 15px;
+    font-weight: 300px;
+    background-color: red;
+    border-radius: 30px;
+    padding: 15px;
+    color: white;
+}
+.Hero-Right{
+    flex:1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ 
+}
+.Hero-Right img{
+    width: 400px;
+}
+
+/* ...................................................... */
+
+@media(max-width:1080px){
+    .hero{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.Hero-section{
+    /* display: none; */
+    width: 80%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    /* margin-inline: 140px; */
+    margin-block: 20px;
+}  
+
+.Hero-left h4{
+    font-size: 20px;
+    font-weight: 600px;
+   
+   }
+.Hand-logo img{
+    width: 50px;
+}
+.Hero-left{
+    flex: 1;
+    padding: 120px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    /* line-height: 10px; */
+}
+.Hero-left p{
+    font-size: 30px;
+    font-weight: 600px;
+}
+.hero-latest-button{
+    width: 170px;
+    height: 30px;
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    font-weight: 300px;
+    background-color: red;
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+}
+
+.Hero-Right img{
+    width: 300px;
+}
+
+
+}
+
+@media(max-width:780px){
+    .Hero-Right img{
+        width: 180px;
+    }
+    .Hero-section{
+        padding-inline: 50px;
+    }
+    .Hero-left{
+        padding: 50px;
+    }
+    .Hero-left p{
+        font-size: 20px;
+        font-weight: 600px;
+    }
+}
+
+@media(max-width:480px){
+    .Hero-section{
+        height: auto;
+    }
+    .Hero-Right img{
+        width: 150px;
+    }
+    .Hero-section{
+        display: block;
+    }
+}

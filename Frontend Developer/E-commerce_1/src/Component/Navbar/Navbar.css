@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 1px 4px -2px black;
+}
+.Nav-logo{
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Nav-logo p{
+    font-size: 15px;
+    font-weight: 300px;
+    color: rgb(31, 30, 30);
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    color: black;
+    gap: 15px;
+}
+.nav-menu li{
+    font-size: 18px;
+    display: flex;
+     align-items: center;
+    flex-direction: column; 
+    justify-content: center; 
+    cursor:pointer;
+    /* gap: 4px; */
+
+}
+.nav-menu hr{
+    width: 80%;
+    height: 2px;
+    border-radius: 10px;
+    background: brown;
+}
+.login-cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+.login-cart button{
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+
+    
+}
+.login-cart button:active{
+    background-color: azure;
+}
+.nav-cart-count{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    margin-top: -33px;
+    margin-left: -20px;
+    border-radius: 20px;
+}
+
+@media(max-width:1280px){
+    .Nav-logo img{
+        width: 40px;
+    }
+    .Nav-logo p{
+        font-size: 15px
+    }
+    .nav-menu{
+      gap: 8px;
+      
+    }
+    .nav-menu li{
+        font-size: 15px;
+    }
+}
+@media(max-width:480px){
+    .Nav-logo img{
+        width: 20px;
+
+    }
+    .Nav-logo p{
+        font-size: 10px;
+    }
+    .login-cart img{
+        width: 30px;
+    }
+    .nav-cart-count{
+        width: 15px;
+        height: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: red;
+        color: white;
+        margin-top: -30px;
+        margin-left: -20px;
+        border-radius: 20px;
+    }
+    
+
+}

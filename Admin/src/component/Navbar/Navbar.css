@@ -1,0 +1,16 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px black;
+    margin-bottom: 1px;
+    background: white;
+}
+
+.Nav-logo{
+    width: 200px;
+}
+.Nav-profile{
+    width: 80px;
+}

@@ -1,0 +1,38 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    background-color: wheat;
+}
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+@media(max-width:800px){
+    .sidebar{
+        display: flex;
+        padding: 30px 0px;
+        flex-direction: row;
+        max-width: none;
+        width: 100%;
+  justify-content: center;
+  height: auto;
+
+    }
+    .sidebar-item{
+        margin: 0;
+       
+    }
+}

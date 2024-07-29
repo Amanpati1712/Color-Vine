@@ -1,0 +1,209 @@
+.Display{
+    width: 100%;
+    height:auto;
+    display: flex;
+    margin-top: 40px;
+
+}
+.display-left{
+    width: 50%;
+    display: flex;
+    /* margin-top: 40px; */
+    /* align-items: center; */
+    justify-content: center;
+    gap: 20px;
+
+
+}
+.display-right{
+    width: 50%;
+    /* margin-top: 40px; */
+     gap: 20px;
+}
+.image-sec{
+    display: flex;
+    flex-direction: column;
+
+}
+.image-sec img{
+    width: 100px;
+    margin-top: 10px;
+    
+}
+.image-section img{
+    width: 440px;
+}
+.display-right h5{
+    font-size: 15px;
+}
+.star-rating{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 15px;
+}
+.number{
+    font-size: 15px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+
+}
+.price h4{
+    font-size: 20px;
+    /* margin-top: 20px; */
+}
+.about_cloth{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 30px;
+}
+.size{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+.size div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+.display-btn{
+    margin-top: 20px;
+}
+.display-btn button{
+    width:200px;
+    height: 40px;
+    border: none;
+    border: 1px solid black;
+    background-color: red;
+    color: black;
+
+}
+.display-category{
+    margin-top: 30px;
+}
+.display-category p{
+    font-size: 15px;
+}
+.display-category p span{
+    font-size: 18px;
+}
+
+@media(max-width:1080px){
+    .Display{
+        padding-inline: 50px;
+        gap: 30px;
+    }
+    .display-left{
+        width: 50%;
+        display: flex;
+        /* margin-top: 40px; */
+        /* align-items: center; */
+        justify-content: center;
+        gap: 20px;
+    
+    
+    }
+    .display-right{
+        width: 50%;
+        /* margin-top: 40px; */
+         gap: 20px;
+    }
+    .image-sec{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .image-sec img{
+        width: 50px;
+        margin-top: 10px;
+        
+    }
+    .image-section img{
+        width: 240px;
+    }
+    .display-right h5{
+        font-size: 8px;
+    }
+    .star-rating{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        gap: 12px;
+    }
+    .number{
+        font-size: 12px;
+    }
+    .price{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 10px;
+    
+    }
+    .price h4{
+        font-size: 12px;
+        /* margin-top: 20px; */
+    }
+    .about_cloth{
+        font-size: 8px;
+        font-weight: 600px;
+        margin-top: 30px;
+        
+    }
+    .size{
+        display: flex;
+        gap: 12px;
+        margin-top: 20px;
+    }
+    .size div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 20px;
+        height: 20px;
+        border: 1px solid black;
+        font-size: 7px;
+    }
+    .display-btn{
+        margin-top: 15px;
+    }
+    .display-btn button{
+        width:110px;
+        height: 35px;
+        border: none;
+        border: 1px solid black;
+        background-color: red;
+        color: black;
+    
+    }
+    .display-category{
+        margin-top: 20px;
+    }
+    .display-category p{
+        font-size: 10px;
+    }
+    .display-category p span{
+        font-size: 15px;
+    }
+
+}
+@media(max-width:780px){
+    .Display{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-inline: 50px;
+        gap: 30px;
+    }
+    
+}
